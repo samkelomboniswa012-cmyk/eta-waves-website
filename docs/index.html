@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ETA Waves student football recruitment and player development pathway.">
+  <title>ETA Waves | Find Your Wave</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="ETA Waves home"><span class="brand-mark">EW</span><span>ETA <b>WAVES</b></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <nav id="mainNav">
+      <a href="#pathway">The pathway</a>
+      <a href="#about">About</a>
+      <a href="#privacy">Privacy</a>
+      <a class="nav-cta" href="#register">Register interest</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="live-dot"></span> STUDENT FOOTBALL RECRUITMENT</p>
+        <h1>FIND YOUR WAVE.<br><span>MAKE YOUR MARK.</span></h1>
+        <p class="hero-intro">Your football journey starts here. Register your interest in ETA Waves and take the first step towards opportunities to play, learn, compete and develop.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#register">Register your interest <span>↗</span></a>
+          <a class="button button-ghost" href="#pathway">Explore the pathway</a>
+        </div>
+        <p class="small-note">Registration is an expression of interest and does not guarantee selection.</p>
+      </div>
+      <div class="hero-art" aria-label="ETA Waves football graphic">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="ball">⚽</div>
+        <div class="art-label label-top">PLAY WITH PURPOSE</div>
+        <div class="art-label label-bottom">ONE TEAM. MANY WAVES.</div>
+        <div class="art-number">01</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="ETA Waves values"><span>PLAY</span><i>✳</i><span>LEARN</span><i>✳</i><span>COMPETE</span><i>✳</i><span>DEVELOP</span><i>✳</i><span>PLAY</span></section>
+
+    <section class="section pathway-section" id="pathway">
+      <div class="section-heading">
+        <p class="eyebrow">HOW IT WORKS</p>
+        <h2>Your journey.<br><span>One player identity.</span></h2>
+        <p>ETA Waves is designed to connect recruitment with opportunities for assessment and player development over time.</p>
+      </div>
+      <div class="steps-grid">
+        <article class="step-card"><span class="step-number">01</span><div class="step-icon">↗</div><h3>Register</h3><p>Tell us who you are, where you study and about your football experience.</p></article>
+        <article class="step-card"><span class="step-number">02</span><div class="step-icon">◎</div><h3>Get identified</h3><p>In the live system, each accepted player record will receive a unique Wave ID.</p></article>
+        <article class="step-card"><span class="step-number">03</span><div class="step-icon">⌁</div><h3>Attend & develop</h3><p>Recruitment staff can communicate next steps for trials and assessments.</p></article>
+        <article class="step-card"><span class="step-number">04</span><div class="step-icon">↗</div><h3>Track progress</h3><p>The planned system will connect a player identity to match and S.P.T.C. observations.</p></article>
+      </div>
+    </section>
+
+    <section class="split-section" id="about">
+      <div class="split-visual"><div class="giant-w">W</div><div class="visual-caption">YOUR GAME.<br>YOUR GROWTH.</div></div>
+      <div class="split-copy"><p class="eyebrow">THE ETA WAVES IDEA</p><h2>More than a form.<br><span>A pathway.</span></h2><p>ETA Waves aims to create a more organised route from student interest to recruitment, trials, match analysis and player development.</p><ul class="check-list"><li>One consistent player identity</li><li>Clearer recruitment records</li><li>A foundation for match-event analysis</li><li>Space, Positioning, Timing and Control (S.P.T.C.) observations</li></ul><a class="text-link" href="#register">Take the first step <span>→</span></a></div>
+    </section>
+
+    <section class="register-section" id="register">
+      <div class="register-intro"><p class="eyebrow">START YOUR JOURNEY</p><h2>Register your<br><span>interest.</span></h2><p>Complete the form with accurate information. The recruitment team can then review your expression of interest and determine any next steps.</p><div class="form-note"><span>✳</span><p><b>Please note</b><br>Submitting this form is not a selection offer or a guarantee of a trial or team place.</p></div></div>
+      <div class="form-panel">
+        <div id="formNotice" class="notice" role="status" aria-live="polite" hidden></div>
+        <form id="registrationForm">
+          <div class="form-heading"><span>PLAYER REGISTRATION</span><span class="required-note">* Required</span></div>
+          <div class="field-grid">
+            <label>Full name *<input name="fullName" autocomplete="name" required maxlength="100" placeholder="Enter your full name"></label>
+            <label>Age *<input name="age" type="number" min="13" max="100" required placeholder="Age"></label>
+            <label>Institution / school *<input name="institution" required maxlength="120" placeholder="Where do you study?"></label>
+            <label>Course / programme<input name="course" maxlength="120" placeholder="Course or programme"></label>
+            <label>Year of study<select name="studyYear"><option value="">Choose one</option><option>Grade 8–9</option><option>Grade 10</option><option>Grade 11</option><option>Grade 12</option><option>1st year</option><option>2nd year</option><option>3rd year</option><option>4th year or above</option><option>Other</option></select></label>
+            <label>Contact number *<input name="phone" type="tel" autocomplete="tel" required maxlength="30" placeholder="Your phone number"></label>
+            <label>Preferred position *<select name="position" required><option value="">Choose position</option><option>Goalkeeper</option><option>Centre-back</option><option>Full-back / wing-back</option><option>Defensive midfielder</option><option>Central midfielder</option><option>Attacking midfielder</option><option>Winger</option><option>Striker</option><option>Flexible / multiple positions</option></select></label>
+            <label>Other positions<input name="otherPositions" maxlength="120" placeholder="Other positions you play"></label>
+            <label>Preferred foot<select name="foot"><option value="">Choose one</option><option>Right</option><option>Left</option><option>Both</option></select></label>
+            <label>Football experience<select name="experience"><option value="">Choose one</option><option>New / developing</option><option>Casual / recreational</option><option>School team</option><option>Club team</option><option>Competitive / league experience</option></select></label>
+          </div>
+          <fieldset><legend>Availability (select all that apply)</legend><div class="availability-grid">
+            <label class="check-option"><input type="checkbox" name="availability" value="Weekday mornings"> Weekday mornings</label>
+            <label class="check-option"><input type="checkbox" name="availability" value="Weekday afternoons"> Weekday afternoons</label>
+            <label class="check-option"><input type="checkbox" name="availability" value="Weekday evenings"> Weekday evenings</label>
+            <label class="check-option"><input type="checkbox" name="availability" value="Weekends"> Weekends</label>
+          </div></fieldset>
+          <label>Football strengths / additional information<textarea name="strengths" rows="3" maxlength="1000" placeholder="For example: passing, acceleration, defending, communication"></textarea></label>
+          <label class="consent"><input type="checkbox" name="contactConsent" required><span>I confirm that the information I provided is accurate and agree that ETA Waves recruitment staff may use it to respond to my expression of interest. *</span></label>
+          <p class="privacy-inline">Do not include sensitive medical information. Read the <a href="#privacy">privacy information</a> before submitting. This demo stores submissions only in this browser and is not yet a live shared registration service.</p>
+          <button class="button button-primary submit-button" type="submit">Submit registration <span>↗</span></button>
+        </form>
+        <section id="successPanel" class="success-panel" hidden aria-live="polite">
+          <div class="success-icon">✓</div><p class="eyebrow">REGISTRATION SAVED ON THIS DEVICE</p><h3>You're on the list.</h3><p>Your demo Wave ID is:</p><div class="wave-id" id="assignedWaveId">WAV-0001</div><p class="small-note">This is a local prototype. Your registration is saved only in this browser and is not sent to ETA Waves staff. Do not rely on this ID as an official player ID.</p><button class="button button-ghost" id="registerAnother" type="button">Register another player</button>
+        </section>
+      </div>
+    </section>
+
+    <section class="admin-section" id="staff">
+      <div><p class="eyebrow">DEMO TOOLS</p><h2>Recruitment <span>workspace.</span></h2><p>This local prototype lets you inspect demo registrations made in this browser. It is not a secure staff portal and must not be used for real student records.</p></div>
+      <div class="admin-actions"><button class="button button-ghost" id="showRecords">Show demo records</button><button class="button button-ghost" id="exportCsv">Export CSV</button><button class="button button-danger" id="clearRecords">Clear demo data</button></div>
+      <div id="recordsPanel" class="records-panel" hidden><div class="records-header"><b>Saved on this device</b><span id="recordCount">0 records</span></div><div class="table-wrap"><table><thead><tr><th>Wave ID</th><th>Player</th><th>Institution</th><th>Position</th><th>Status</th></tr></thead><tbody id="recordsBody"></tbody></table></div><p class="small-note">This data is stored in browser storage and may be lost if browser data is cleared. It is visible to anyone using this browser profile.</p></div>
+    </section>
+
+    <section class="privacy-section" id="privacy"><div><p class="eyebrow">PRIVACY MATTERS</p><h2>Player data deserves <span>care.</span></h2></div><div class="privacy-copy"><p>Before launching publicly, ETA Waves should publish an approved privacy notice that identifies who manages the information, why it is collected, who can access it, how long it is kept and how a student can request a correction or deletion where applicable.</p><p>This prototype uses browser storage only. It does not send information to a central database, and its local demo IDs are not permanent or shared between devices. Do not use it to collect real student registrations until a secure backend, access permissions, backups and appropriate consent/safeguarding procedures have been implemented.</p></div></section>
+  </main>
+  <footer><a class="brand" href="#home"><span class="brand-mark">EW</span><span>ETA <b>WAVES</b></span></a><p>Find your wave. Make your mark.</p><span class="footer-small">ETA Waves website prototype · Not yet connected to a live database</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>
